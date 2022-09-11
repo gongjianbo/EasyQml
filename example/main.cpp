@@ -1,12 +1,8 @@
 #include <QApplication>
 #include <QQmlApplicationEngine>
-#include <QQmlContext>
-#include <QDebug>
-#include "EasyQmlCommon.h"
 
 int main(int argc, char *argv[])
 {
-    test_print();
     QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);

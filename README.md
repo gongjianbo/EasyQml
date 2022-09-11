@@ -1,3 +1,3 @@
 # EasyQml
-QtQuick/QML custom components and examples，based on Qt5.15. Because Qt6 and Qt5 differ in QML related syntax and interface, Qt6 based versions will be released separately in the future. QtQuick/QML自定义组件和示例，目前基于Qt5.15。因为Qt6与Qt5在QML相关语法和接口上有差异，后续会单独出基于Qt6的版本。
+QtQuick/QML custom components and examples，based on Qt5.15. Considering that the relevant interface changes too much, it is not compatible with the old version. QtQuick/QML自定义组件和示例，目前基于Qt5.15。考虑到相关接口变动太大，目前不对旧版本做兼容。
 
