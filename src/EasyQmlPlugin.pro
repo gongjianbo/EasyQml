@@ -19,12 +19,11 @@ TARGET = $$qtLibraryTarget(EasyQml)
 DESTDIR = $$PWD/../bin/EasyQml
 
 #module
-#uri = EasyQml
+#import EasyQml 5.15, uri = EasyQml, version = 5.15
 QML_IMPORT_NAME = EasyQml
-#import EasyQml 5.15
 #QML_IMPORT_MAJOR_VERSION = 5
 #QML_IMPORT_MINOR_VERSION = 15
-IMPORT_VERSION = $$QT_MAJOR_VERSION.$$QT_MINOR_VERSION
+QML_IMPORT_VERSION = 5.15
 
 HEADERS += \
     EasyQmlPlugin.h
@@ -34,8 +33,11 @@ SOURCES += \
 
 OTHER_FILES = qmldir
 
-INCLUDEPATH += $$PWD/QmlItem
-include($$PWD/QmlItem/QmlItem.pri)
+INCLUDEPATH += $$PWD/EasyControl
+include($$PWD/EasyControl/EasyControl.pri)
+
+INCLUDEPATH += $$PWD/QuickControl
+include($$PWD/QuickControl/QuickControl.pri)
 
 copy_qmltypes.files = $$OUT_PWD/plugins.qmltypes
 copy_qmltypes.path = $$DESTDIR

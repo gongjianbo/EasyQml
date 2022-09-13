@@ -1,5 +1,5 @@
 RESOURCES += \
-    $$PWD/qmlitem.qrc
+    $$PWD/easycontrol.qrc
 
 HEADERS += \
     $$PWD/PaintedTest.h

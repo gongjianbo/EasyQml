@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QuickTest.qml</file>
+    </qresource>
+</RCC>

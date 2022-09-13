@@ -10,16 +10,25 @@ Window {
     title: "EasyQml Example"
     color: "gray"
 
-    PaintedTest{
-        width: 100
-        height: 100
+    Row {
         anchors.centerIn: parent
-        fillColor: "orange"
-    }
+        spacing: 12
+        PaintedTest {
+            width: 100
+            height: 100
+            fillColor: "red"
+        }
 
-    QmlTest{
-        width: 100
-        height: 100
-        color: "orange"
+        QmlTest {
+            width: 100
+            height: 80
+            color: "green"
+        }
+
+        QuickTest {
+            width: 80
+            height: 100
+            color: "blue"
+        }
     }
 }
