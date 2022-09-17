@@ -11,10 +11,16 @@ CONFIG += utf8_source
 
 #output dir
 #CONFIG(debug, debug|release) { }
-DESTDIR = $$PWD/../bin
+DESTDIR = $$PWD/../../bin
 
 SOURCES += \
     main.cpp
 
 RESOURCES += \
-    qml.qrc
+    $$PWD/qml/qml.qrc \
+    img/img.qrc
+
+DEFINES += QT_DEPRECATED_WARNINGS
+win32{
+RC_ICONS = $$PWD/img/icon.ico
+}

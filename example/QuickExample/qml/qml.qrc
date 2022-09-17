@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Main/LeftMenu.qml</file>
+        <file>Main/RightPane.qml</file>
+        <file>Control/BasicControl.qml</file>
+        <file>Control/ButtonControl.qml</file>
+    </qresource>
+</RCC>

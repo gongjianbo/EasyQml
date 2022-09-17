@@ -1,9 +1,9 @@
 TEMPLATE = subdirs
 CONFIG += ordered
 
-SUBDIRS = easyqmlplugin easyexample
+SUBDIRS += easyqmlplugin easyexample
 easyqmlplugin.file = src/EasyQmlPlugin.pro
-easyexample.file = example/EasyExample.pro
+easyexample.file = example/Example.pro
 easyexample.depends = easyqmlplugin
 
 #>=Qt5.15
